@@ -13,7 +13,7 @@ CREATE TABLE products (
 4. Configure Database CredentialsOpen main.py (or whatever your Python file is named) and update the database connection variables to match your local MySQL setup:mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="[YOUR_MYSQL_PASSWORD]", # <-- Update this
+  password="admin", # <-- Update this
   database="inventory_db"
 )
 How to RunExecute the Python script in your terminal:python main.py
